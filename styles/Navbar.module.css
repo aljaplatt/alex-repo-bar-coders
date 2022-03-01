@@ -1,47 +1,49 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    height: 20%;
-    align-items: center;
-    padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  align-items: center;
+  padding: 0.5rem;
 }
 
 .student {
-    display: flex;
-    align-items: center;
-    font-family: "Ribeye Marrow"
-
-
+  display: flex;
+  align-items: center;
+  font-family: "Ribeye Marrow";
 }
 
 .student h1 {
-    margin-left: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 .navbar img {
-    max-width: 60px;
-    max-height: 60px;
-    
+  max-width: 60px;
+  max-height: 60px;
 }
 
-
-
 .navbar button {
-    width: 15%;
-    margin: 2rem 0.5rem;
+  width: 15%;
+  margin: 2rem 0.5rem;
   padding: 0.25rem 0.25rem;
   font-size: 1.3rem;
   border-radius: 50px;
-  background-color: #C66DFD;
+  background-color: #c66dfd;
   color: white;
   font-family: "Reem Kufi";
-
-
+}
+.navbar a {
+  width: 15%;
+  margin: 2rem 0.5rem;
+  padding: 0.25rem 0.25rem;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background-color: #c66dfd;
+  color: white;
+  font-family: "Reem Kufi";
+  text-align: center;
 }
 
 .logoutbutton {
-    width: 10%;
-    background-color: #7314AD;
-
+  width: 10%;
+  background-color: #7314ad;
 }
-

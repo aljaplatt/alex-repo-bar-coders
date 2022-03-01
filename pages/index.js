@@ -1,9 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
-import image from '../images/projeto-o-fn--TuQvBZ0-unsplash.jpg'
-
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
+import image from "../images/projeto-o-fn--TuQvBZ0-unsplash.jpg";
 
 export default function Home() {
   return (
@@ -19,16 +18,16 @@ export default function Home() {
       </div>
       <div className={styles.rightSide}>
         <h1>Book Worms</h1>
-        <h2>Login</h2>
-        <input placeholder="username" />
-        <input type="password" placeholder="password" />
+        <a href="http://localhost:3000/api/auth/login">Login</a>
+        {/* <input placeholder="username" /> */}
+        {/* <input type="password" placeholder="password" />
         <div className={styles.Buttons}>
         <Link href="/studenthome" passHref>
         <button>I&apos;m a student</button>
         </Link>
          
-          <button>I&apos;m a teacher</button>
-        </div>
+          <button>I&apos;m a teacher</button> */}
+        {/* </div> */}
       </div>
     </div>
   );

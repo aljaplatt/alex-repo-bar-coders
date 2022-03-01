@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Navbar from "../src/studentcomponents/navbar";
 import Image from "next/image";
 import rocketicon from "../images/rocketicon.png";
@@ -6,7 +6,6 @@ import styles from "../styles/cantfindbook.module.css";
 import { useRouter } from "next/router";
 
 function Cantfindbook({ isNewMessage, studentName, studentId }) {
-
   const router = useRouter();
 
   const [title, setTitle] = useState("");
@@ -29,9 +28,8 @@ function Cantfindbook({ isNewMessage, studentName, studentId }) {
         }),
       });
       router.push("/studenthome");
-    }
-    catch {
-      alert("Sorry the server is unavailable, please try later")
+    } catch {
+      alert("Sorry the server is unavailable, please try later");
     }
   }
 

@@ -1,16 +1,12 @@
-import React from 'react'
-import styles from '../../../styles/Navbar.module.css'
-import Link from 'next/link';
-import Image from 'next/image';
-import bookwormicon from '../../../images/bookwormicon.png'
-import newmessageicon from '../../../images/newmessageicon.png'
-import messagesicon from '../../../images/messagesicon.png'
+import React from "react";
+import styles from "../../../styles/Navbar.module.css";
+import Link from "next/link";
+import Image from "next/image";
+import bookwormicon from "../../../images/bookwormicon.png";
+import newmessageicon from "../../../images/newmessageicon.png";
+import messagesicon from "../../../images/messagesicon.png";
 
-function Navbar({isNewMessage, studentName}) {
-
-    
-
-
+function Navbar({ isNewMessage, studentName }) {
   return (
     <div className={styles.navbar}>
       <div className={styles.student}>
@@ -46,11 +42,14 @@ function Navbar({isNewMessage, studentName}) {
           <Image src={messagesicon.src} alt="icon" width="60px" height="60px" />
         </Link>
       )}
-      <Link href="/" passHref>
+      {/* <Link href="/" passHref>
         <button className={styles.logoutbutton}>Log Out</button>
-      </Link>
+      </Link> */}
+      <a className={styles.logoutbutton} href="/api/auth/logout">
+        Logout
+      </a>
     </div>
   );
 }
 
-export default Navbar
+export default Navbar;

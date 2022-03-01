@@ -1,20 +1,20 @@
 .loginPage {
   display: flex;
   justify-content: space-evenly;
-   height: 100vh;
-   align-items: center;
+  height: 100vh;
+  align-items: center;
 }
 
 .image {
-width: 35%;
-margin-bottom: 10%;
+  width: 35%;
+  margin-bottom: 10%;
 }
 
 .rightSide {
-text-align: center;
-display: flex;
-flex-direction: column;
-width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
 .rightSide h1 {
@@ -22,7 +22,7 @@ width: 40%;
   font-family: "Ribeye Marrow";
 }
 
-.rightSide h2 {
+.rightSide a {
   font-size: 3rem;
   font-family: "Reem Kufi";
 }
@@ -32,7 +32,7 @@ width: 40%;
   padding: 0.5rem 1rem;
   font-size: 1.3rem;
   border-radius: 50px;
-  background-color: #7314AD;
+  background-color: #7314ad;
   color: white;
   font-family: "Reem Kufi";
 }
@@ -41,17 +41,17 @@ width: 40%;
   padding: 1rem;
   font-size: 1.5rem;
   border-radius: 50px;
-  background-color: #C66DFD;
+  background-color: #c66dfd;
   font-family: "Reem Kufi";
   color: black;
 }
 
-.rightSide input::placeholder{
+.rightSide input::placeholder {
   color: black;
   opacity: 1;
 }
 
-.rightSide input:-ms-input-placeholder{
+.rightSide input:-ms-input-placeholder {
   color: black;
   opacity: 1;
 }
