@@ -1,0 +1,15 @@
+.progressbar {
+    width: 80%;
+    margin: 3rem auto 0;
+    
+}
+
+.progressbar img {
+transform: rotate(45deg);
+}
+
+.dayCount {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Reem Kufi";
+}

@@ -1,0 +1,71 @@
+.container {
+    margin: 2rem 0.5rem;
+  padding: 0.25rem 0.25rem;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background-color: #C66DFD;
+  color: white;
+  font-family: "Reem Kufi";
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  float: right;
+  text-align: center;
+
+}
+
+.container input {
+  margin: 2rem 0.5rem;
+  padding: 0.25rem 0.25rem;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background-color: white;
+  font-family: "Reem Kufi";
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  text-align: center;
+}
+
+.summary {
+    height: 150px;
+    margin: 2rem 0.5rem;
+  padding: 0.25rem 0.25rem;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background-color: white;
+  font-family: "Reem Kufi";
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    margin: 2rem 0.5rem;
+  padding: 0.25rem 0.25rem;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background-color: #7314AD;
+  color: white;
+  font-family: "Reem Kufi";
+  display: flex;
+  justify-content: center;
+}
+
+
+.buttons input {
+    transform: scale(2.5);
+}
+
+
+
+
+
+
+

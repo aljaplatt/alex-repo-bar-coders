@@ -1,0 +1,110 @@
+.window {
+  margin: 3rem 1rem;
+  padding: 0.25rem 0.25rem;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background-color: #c66dfd;
+  color: white;
+  font-family: "Reem Kufi";
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  float: right;
+  text-align: center;
+}
+
+.coinNumber {
+  margin: 1rem;
+  background-image: -webkit-linear-gradient(45deg, rgb(255, 208, 0) , #00ff15);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 1.5s infinite linear;
+  
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(90deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+
+.image {
+  margin: 1rem;
+}
+.image:hover {
+  animation: shake 1.3s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  0% {
+    transform: translate(2px, 2px) rotate(5deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-5deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(5deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(5deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-5deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-5deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(5deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(2px, -3px) rotate(-5deg);
+  }
+}
+
+.inner {
+  margin: 2rem 2rem;
+  padding: 0.25rem 0.25rem;
+  display: flex;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.inner h1 {
+  color: black;
+  overflow-wrap: normal;
+  font-family: "Reem Kufi";
+}
+
+.inner p1 {
+  margin: 1rem 1rem;
+  color: black;
+  overflow-wrap: normal;
+  font-family: "Reem Kufi";
+}
+.inner p2 {
+  color: black;
+  overflow-wrap: normal;
+  font-family: "Reem Kufi";
+}
+
+.coinNumber {
+  margin: 1rem;
+  font-size: 3rem;
+  color: #7314ad;
+}

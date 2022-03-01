@@ -1,0 +1,65 @@
+
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.bookDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+}
+
+.box{
+    max-width: 60%;
+    max-height: 30vh;
+    margin:2rem 40px 6rem;
+    box-shadow: 0 0 30px 3px #C66DFD;
+    border-radius: 50px;
+    text-align: center;
+     color: black;
+ flex-shrink: 0;
+
+}
+
+.bookDiv h4 {
+    margin-bottom: 0;
+      font-family: "Reem Kufi";
+    font-size: 1.4rem;
+}
+
+.box p {
+   margin-top: 1rem;
+     font-family: "Reem Kufi";
+    font-size: 1rem;
+ 
+}
+
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 50px;
+    height: 100%; 
+    
+}
+
+.box:hover{
+    transition-duration: 1.5s;
+    transform: scale(1.2);
+    z-index: 2;
+    color: white;
+}
+
+  
+
+
+  

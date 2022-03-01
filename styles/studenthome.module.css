@@ -1,0 +1,36 @@
+.pageBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.leftSide {
+    margin-top: 1rem;
+       width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.leftSide h2 {
+    width: 80%;
+      font-family: "Reem Kufi";
+}
+
+.rightSide {
+    width: 40%;
+}
+
+.newBookButton {
+        margin: 2rem 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 50px;
+  background-color: #7314AD;
+  color: white;
+  font-family: "Reem Kufi";
+  display: flex;
+  justify-content: center;
+}
